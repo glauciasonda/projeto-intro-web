@@ -1,7 +1,6 @@
 /**
  * Projeto Vinhos Portugueses
  */
-console.log("Projeto Vinhos Portugueses!!");
 
 let vinho = [{ nomeVinho: 'Crasto Superior',
                 produtor: 'Quinta do Crasto',
@@ -74,7 +73,8 @@ let vinho = [{ nomeVinho: 'Crasto Superior',
                 isDecantacao: false,
                 tempoDecantacao: 0,
                 teorAlcoolico: 20,
-                uva: ['Sousão', 'Tinta Roriz', 'Touriga Franca', 'Touriga Nacional'] },
+                uva: ['Sousão', 'Tinta Roriz', 'Touriga Franca', 'Touriga Nacional'] }
+            ]    
               //papa figos
           // Quinta do vale Meão]
 

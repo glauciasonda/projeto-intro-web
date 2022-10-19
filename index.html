@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Adega Portuguesa </title>
-    <script src="intro-web.js"></script>
+    <script src="intro-web.js" defer></script>
     <script src="https://kit.fontawesome.com/ece91f4f7d.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
 
@@ -16,66 +16,23 @@
             <p><b>Adega Portuguesa</b></p>
         </header>
 
-        <main>
+        <main> 
             <section class="section-pesquisa">
-                <form action="#">
-                    <input type="text" name="busca" id="busca" >
-                    <button type="submit" ><i class="fa-solid fa-magnifying-glass"></i></button> 
-                </form>
-            </section>
-            <section class="section-texto">
-                
-                <article class="about-portugal">
-                    <!--<p>Portugal é um dos mais tradicionais países produtores de vinhos do mundo, com  250 tipos de uvas nativas cultivadas em seus vinhedos. 
-                        O clima quente de algumas regiões, aliado ao  **terroir**   privilegiado e às modernas técnicas de produção utilizadas na elaboração de seus vinhos, têm garantido a Portugal vinhos concentrados, complexos e únicos, geralmente apresentando uma excelente relação qualidade/preço.
-                        Além das castas internacionais, que se adaptaram muito bem ao clima e solo portugueses, como é o caso das uvas Syrah, Cabernet Sauvignon e Chardonnay, Portugal conta com uma impressionante variedade de castas autóctones, incluindo algumas, como a Touriga Nacional,  que já são consideradas entre as melhores uvas do mundo para a produção de vinhos finos.
-                        Apesar da Touriga Nacional ser bastante utilizada na elaboração de vinhos de Portugal e considerada um dos maiores tesouros portugueses, outras uvas nativas também recebem o merecido destaque, como as castas tintas Castelão, Baga, Trincadeira e Touriga Franca.
-                        As uvas de coloração branca mais utilizadas no país são as castas nativas Fernão Pires, Alvarinho, Encruzado e Arinto. As cepas dão origem a vinhos portugueses brancos leves e refrescantes, incluindo o famoso Vinho Verde português, conhecido por ser acessível, além de apresentar aromas florais. Os vinhos de Portugal são ligeiramente frisantes e exprimem no palato acidez e leveza.
-                        Sem dúvidas, Portugal produz alguns dos maiores tesouros do mundo do vinho com uma grande variedade de estilos e preços para todos os bolsos, agradando aos mais exigentes críticos do universo dos vinhos.
-                    </p> -->
-                </article>
-            </section>
-            <section class="section-cards">
-                <p>aqui vão os cards</p>
-            </section>
-
-
+                <form >
+                    <input type="text" name="busca" id="busca" onblur="onBlurBusca(event)"  placeholder="O que você está procurando?"  >
+                    <button  onclick="pesquisarVinho(event)" ><i class="fa-solid fa-magnifying-glass"></i></button> 
+                </form> 
+            </section> 
+            
+            <section class="section-cards" id="listaCard">
+            </section> 
+        
         </main>
-
+        
         <footer>
-            <p><h6>Feito por Gláucia Sonda</h6></p>
-        </footer>
-
-
-        <!-- <header class="header-titulo">
-            
-        </header>
-        <main class="principal">
-
-            
-            
-            <section class="section-imagem-texto">
-                <div class="section-div">
-                    <h2><p><b>Portugal</b></p></h2>
-                    <p>
-                        </p> 
-
-                </div>
-               
-               
-            </section>
-            
-            <section class="section-cards">
-                <h1>section cards</h1>
-            </section>
-
-    
-        </main>
-        <footer>
+            <p><h6>Feito por Gláucia Sonda para Labenu</h6></p>
             
         </footer>
-
-    -->
     </div>
 </body>
 </html>

@@ -128,6 +128,14 @@
     font-style: italic;
 }
 
+.size-git {
+    max-width: 25px;
+    max-height: 25px;
+    border-radius: 10px;
+    
+}
+
+
 footer{
     width: 100%;
     height: 5%;
